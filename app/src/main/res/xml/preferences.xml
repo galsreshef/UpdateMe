@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/settings">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="preference_notifications"
+            android:title="@string/notification" />
+
+        <CheckBoxPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:key="showTutorials"
+            android:title="הצג הוראות בהפעלה הבאה" />
+        <ListPreference
+            android:entries="@array/notification_type_txt"
+            android:entryValues="@array/notification_type_values"
+            android:defaultValue="news"
+            android:key="preferences_notification_type"
+            android:title="סוג התראה" />
+
+        <ListPreference
+            android:entries="@array/interval_list_txt"
+            android:entryValues="@array/interval_list_values"
+            android:defaultValue="58"
+            android:key="preferences_notification_interval"
+            android:title="@string/intervals" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/setting_news">
+        <ListPreference
+            android:defaultValue="il"
+            android:entries="@array/countries_list_txt"
+            android:entryValues="@array/countries_list_values"
+            android:key="preferences_country"
+            android:title="@string/which_countries" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

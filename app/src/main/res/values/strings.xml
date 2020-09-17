@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Update Me</string>
+    <string name="none" />
+    <string name="one_min">פעם בדקה</string>
+    <string name="one_hour">פעם בשעה</string>
+    <string name="once_day">פעם ביום</string>
+    <string name="avg">כעת</string>
+    <string name="temperature">טמפרטורה</string>
+    <string name="max_temp">"מקסימום"</string>
+    <string name="min_temp">"מינימום"</string>
+    <string name="wind">רוח</string>
+    <string name="wind_direction">כיוון</string>
+    <string name="wind_speed">מהירות</string>
+    <string name="settings">הגדרות - התראות</string>
+    <string name="intervals">פרק זמן</string>
+    <string name="notification">התראות</string>
+    <string name="updates_waiting">"עדכוני חדשות מחכים לך"</string>
+    <string name="tap_read_more">לחץ לקריאה</string>
+    <string name="click_to_read_more">לכתבה המלאה</string>
+    <string name="string">String</string>
+    <string name="splash_text">הדרך המתקדמת ביותר\nלצריכת חדשות</string>
+    <string name="setting_news">הגדרות - חדשות</string>
+    <string name="which_countries">מהיכן לקבל חדשות</string>
+    <string name="swipe_refresh">משוך לרענון</string>
+    <string name="got_it">קיבלתי, הסתר הוראות</string>
+    <string name="got_it_instruction">ניתן להציג אותי שוב דרך מסך ההגדרות</string>
+    <string name="slide">החלק לתחזית</string>
+
+    <string-array name="interval_list_txt">
+        <item>@string/one_min</item>
+        <item>@string/one_hour</item>
+        <item>@string/once_day</item>
+    </string-array>
+
+    <string-array name="interval_list_values">
+        <item>58</item>
+        <item>3598</item>
+        <item>86398</item>
+    </string-array>
+
+    <string-array name="countries_list_txt">
+        <item>ישראל</item>
+        <item>גרמניה</item>
+        <item>צרפתית</item>
+        <item>ארצות הברית</item>
+        <item>רוסיה</item>
+        <item>אנגליה</item>
+        <item>הודו</item>
+        <item>יפן</item>
+    </string-array>
+
+    <string-array name="countries_list_values">
+        <item>il</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>us</item>
+        <item>ru</item>
+        <item>gb</item>
+        <item>in</item>
+        <item>jp</item>
+    </string-array>
+
+    <string-array name="notification_type_txt">
+        <item>חדשות</item>
+        <item>מזג-אוויר</item>
+    </string-array>
+
+    <string-array name="notification_type_values">
+        <item>news</item>
+        <item>weather</item>
+    </string-array>
+</resources>
